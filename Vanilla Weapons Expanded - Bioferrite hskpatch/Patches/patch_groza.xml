@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Gun_OZ14G_HMC"]/comps
+		</xpath>
+		<value>
+			<li Class="CombatExtended.CompProperties_UnderBarrel">
+				<standardLabel>переключить на автомат</standardLabel>
+				<underBarrelLabel>переключить на гранатомет</underBarrelLabel>
+				<propsUnderBarrel>
+					<magazineSize>1</magazineSize>
+					<reloadTime>3.5</reloadTime> 
+					<ammoSet>AmmoSet_40x46mmGrenade</ammoSet>
+				</propsUnderBarrel>
+				<verbPropsUnderBarrel>
+					<recoilAmount>2.93</recoilAmount>
+					<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+					<hasStandardCommand>true</hasStandardCommand>
+					<defaultProjectile>Bullet_40x46mmGrenade_HE</defaultProjectile>
+					<warmupTime>0.9</warmupTime>
+					<range>35</range> 
+					<minRange>4</minRange> 
+					<soundCast>Shot_GrenadeLauncher</soundCast>
+					<soundCastTail>GunTail_Medium</soundCastTail>
+					<muzzleFlashScale>3</muzzleFlashScale>
+					<targetParams>
+						<canTargetLocations>true</canTargetLocations>
+						<canTargetPawns>true</canTargetPawns>
+					</targetParams>
+					<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+				</verbPropsUnderBarrel>
+				<propsFireModesUnderBarrel>
+					<aiUseBurstMode>FALSE</aiUseBurstMode>
+					<aiAimMode>AimedShot</aiAimMode>
+					<aimedBurstShotCount>1</aimedBurstShotCount>
+				</propsFireModesUnderBarrel>
+			</li>
+		</value>
+	</Operation>
+		
+</Patch>

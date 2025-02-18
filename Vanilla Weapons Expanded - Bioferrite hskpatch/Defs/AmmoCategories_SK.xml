@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <CombatExtended.AmmoCategoryDef>
+    <defName>Bioferrite_bullet</defName>
+    <label>Bioferrite_bullet</label>
+    <description>Ammunition with bioferrite bullets.</description>
+  </CombatExtended.AmmoCategoryDef>
+  
+  
+</Defs>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_9x19mmPara"]/ammoTypes
+		</xpath>
+		<value>
+			<Ammo_9x19mmPara_Bioferrite_bullet>Bullet_9x19mmPara_Bioferrite_bullet</Ammo_9x19mmPara_Bioferrite_bullet>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_45ACP"]/ammoTypes
+		</xpath>
+		<value>
+			<Ammo_45ACP_Bioferrite_bullet>Bullet_45ACP_Bioferrite_bullet</Ammo_45ACP_Bioferrite_bullet>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_303British"]/ammoTypes
+		</xpath>
+		<value>
+			<Ammo_303British_Bioferrite_bullet>Bullet_303British_Bioferrite_bullet</Ammo_303British_Bioferrite_bullet>
+		</value>
+	</Operation>
+</Patch>

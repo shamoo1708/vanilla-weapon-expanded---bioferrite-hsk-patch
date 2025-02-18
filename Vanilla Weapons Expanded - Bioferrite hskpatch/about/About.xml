@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Vanilla Weapons Expanded - Bioferrite HSK Patch</name>
+	<author>Oskar Potocki, xrushha, Arquebus, Taranchuk</author>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<modIconPath IgnoreIfNoMatchingField="True">UI/VELogo</modIconPath>
+	<packageId>VanillaExpanded.VWEBFp</packageId>
+	<description>Vanilla Weapons Expanded - Bioferrite aims to bring several new weapons inspired by the hellcat rifle in Anomaly DLC. These weapons will have unique, triggerable abilities that consume bioferrite charges. Without adding too much bloat, this mod allows you to unlock unique, useful guns as long as you have bioferrite to sustain them.
+	
+	From a short range shotgun capable of blasting your enemies with intense heat, through a battle rifle with an underbarrel flare gun, to a bolt action rifle with a long bioferrite bayonet, you will be able to really utisile this new resource in whatever way you want.
+	
+	If you have Vanilla Factions Expanded - Pirates, you may enjoy the new Warbolter warcasket weapon, and with Vanilla Weapons Expanded - Heavy, you can enjoy the powerful heavy incinerator.
+	
+Vanilla Weapons Expanded is part of a series of mods expanding on everyday life on the Rimworld. When paired together with a brand new Vanilla Apparel Expanded and Vanilla Armours Expanded, you can bring something to your game that will keep you interested in it for days.
+</description>
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+			<displayName>Vanilla Expanded Framework</displayName>
+			<downloadUrl>https://github.com/Vanilla-Expanded/VanillaExpandedFramework</downloadUrl>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2023507013</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>Ludeon.RimWorld.Anomaly</packageId>
+			<displayName>Rimworld - Anomaly</displayName>
+			<steamWorkshopUrl>https://store.steampowered.com/app/2380740/RimWorld__Anomaly/</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>VanillaExpanded.VWEBF</packageId>
+			<displayName>Vanilla Weapons Expanded - Bioferrite</displayName>
+		</li>
+		<li>
+			<packageId>CETeam.CombatExtended</packageId>
+			<displayName>Combat Extended</displayName>
+			<downloadUrl>https://github.com/skyarkhangel/Hardcore-SK</downloadUrl>
+		</li>
+		<li>
+			<packageId>skyarkhangel.HSK</packageId>
+			<displayName>Hardcore SK</displayName>
+			<downloadUrl>https://github.com/skyarkhangel/Hardcore-SK</downloadUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Anomaly</li>
+		<li>brrainz.harmony</li>
+		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+		<li>UnlimitedHugs.HugsLib</li>
+		<li>CETeam.CombatExtended</li>
+		<li>skyarkhangel.HSK</li>
+	</loadAfter>
+</ModMetaData>
