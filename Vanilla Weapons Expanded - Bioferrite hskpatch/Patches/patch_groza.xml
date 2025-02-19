@@ -2,7 +2,7 @@
 <Patch>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Gun_OZ14G_HMC"]/comps
+		<xpath>Defs/ThingDef[defName="Gun_OZ14G_HMC" or defName="OZ14G"]/comps
 		</xpath>
 		<value>
 			<li Class="CombatExtended.CompProperties_UnderBarrel">
